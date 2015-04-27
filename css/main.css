@@ -1,0 +1,58 @@
+/* Vote Unanimous */
+.jumbotron h6 {
+	text-align: center;
+	font-size: 90px;
+	font-family: Courier;
+	color: #373737;
+	padding: 10px;
+}
+
+/* "United In Harmoney" */
+.jumbotron p {
+text-align: right;
+font-size: 40px;
+font-family: Fixed, monospace;
+color: #c52a2a;
+padding: 15px;
+padding-right: 200px;
+}
+
+/* Background Image */
+.jumbotron {
+	background-image:url('http://suitcasemag.com/wp-content/uploads/2014/08/white-brick-wall.jpg');
+	height: 350px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jumbotron .container {
+	position: relative;
+	top: 10px;
+}
+
+/* Header */
+.nav a {
+	color: #5a5a5a;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 25px;
+	text-transform: uppercase;
+	border-color: rgb(255, 255, 255, 0.95);
+	border: 1px solid #ddd;
+}
+.nav li {
+	display: inline;
+}
+
+/* Dropdown */
+.dropdown-menu {
+	font-size: 16px;
+	margin-top: 5px;
+	min-width: 105px;
+}
+
+.dropdown-menu li a {
+	color: red;
+	padding: 6px 20px;
+	font-weight: 300;
+}
