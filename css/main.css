@@ -13,13 +13,14 @@ TITLE
 SUBTITLE
 *************************/
 
-.subtitle {
+.jumbotron p {
 	text-decoration: none;
 	text-align: right;
 	color: red;
 	font: sans-serif;
 	margin-right: 5em;
 	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 2em;
 }
 
 /*************************
@@ -33,10 +34,6 @@ JUMBOTRON IMAGE
 	background-size: cover;
 }
 
-.jumbotron .container {
-	position: relative;
-	top: 10px;
-}
 
 /*************************
 NAVIGATION
@@ -79,3 +76,31 @@ DROPDOWN
 	padding: 6px 20px;
 	font-weight: 300;
 }
+
+/*************************
+MAIN PAGE CONTENT
+*************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
