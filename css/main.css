@@ -1,17 +1,16 @@
 /*************************
-VOTE UNAMIMOUS
+TITLE
 *************************/
 
 .jumbotron h6 {
 	text-align: center;
 	font-size: 6em;
 	font-family: 'Playfair Display', serif;
-	color: #373737;
 	padding: 10px;
 }
 
 /*************************
-UNITED IN HARMONEY
+SUBTITLE
 *************************/
 
 .subtitle {
@@ -24,7 +23,7 @@ UNITED IN HARMONEY
 }
 
 /*************************
-BACKGROUND IMAGE
+JUMBOTRON IMAGE
 *************************/
 
 .jumbotron {
@@ -40,7 +39,7 @@ BACKGROUND IMAGE
 }
 
 /*************************
-HEADER
+NAVIGATION
 *************************/
 
 .nav a {
