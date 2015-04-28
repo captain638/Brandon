@@ -65,23 +65,24 @@ NAVIGATION
 DROPDOWN
 *************************/
 
-.dropdown-menu {
-	font-size: 16px;
-	margin-top: 5px;
-	min-width: 105px;
-}
-
-.dropdown-menu li a {
-	color: red;
-	padding: 6px 20px;
-	font-weight: 300;
-}
 
 /*************************
 MAIN PAGE CONTENT
 *************************/
 
 
+.thumbnail img {
+	height: 200px;
+    overflow: auto;
+}
+
+#thumbnails {
+	text-align: center;
+}
+
+#thumbnail-heading {
+	text-align: center;
+}
 
 
 
