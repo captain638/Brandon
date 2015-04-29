@@ -32,6 +32,7 @@ JUMBOTRON IMAGE
 	height: 350px;
 	background-repeat: no-repeat;
 	background-size: cover;
+	
 }
 
 
@@ -39,27 +40,6 @@ JUMBOTRON IMAGE
 NAVIGATION
 *************************/
 
-.nav a {
-	color: #5a5a5a;
-	font-size: 15px;
-	font-weight: bold;
-	padding: 15px;
-	text-transform: uppercase;
-	border-color: rgb(255, 255, 255, 0.95);
-	border: 0.1em solid #ddd;
-	border-radius: 10px;
-	font-family: 'Alegreya Sans SC', sans-serif; 
-}
-
-.nav li {
-	display: inline;
-}
-
-.nav a:hover {
-	color: black;
-	background-color: #999;
-	text-decoration: none;
-}
 
 /*************************
 DROPDOWN
@@ -69,7 +49,6 @@ DROPDOWN
 /*************************
 MAIN PAGE CONTENT
 *************************/
-
 
 .thumbnail img {
 	height: 200px;
