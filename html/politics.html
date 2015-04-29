@@ -11,19 +11,37 @@
 </head>
 
 <body>
-<!-- NAVIGATION BUTTONS -->
-	<div class="container">
-		<div class="btn-group pull-left" role="group">
-		  <a href="current-events.html" class="btn btn-success btn-md" role="button">Current Events</a>
-		  <a href="politics.html" class="btn btn-success btn-md" role="button">Politics</a>
-		  <a href="sports.html" class="btn btn-success btn-md" role="button">Sports</a>
-		  <a href="trending.html" class="btn btn-success btn-md" role="button">Trending</a>
-		</div>
-		<div class="btn-group pull-right" role="group">
-		  <button type="button" class="btn btn-success btn-md">Sign In</button>
-		  <button type="button" class="btn btn-default btn-md">Register</button>
-		</div>
-	</div>
+
+<!-- NAVIGATION -->
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a href="../index.html"></a>
+	    </div>
+
+	<!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li class="active"><a href="politics.html">Politics<span class="sr-only">(current)</span></a></li>
+	        <li><a href="sports.html">Sports</a></li>
+	        <li><a href="current-events.html">Current Events</a></li>
+	        <li><a href="current-events.html">Trending</a></li>
+	      </ul>
+	<!-- LOG IN -->      
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="#">Log In</a></li>
+	      </ul>
+
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
 
 <!-- CONTENT -->
 	<div class="container">
