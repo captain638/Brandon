@@ -64,9 +64,11 @@ MAIN PAGE CONTENT
 *************************/
 
 .thumbnail img {
-	width: inherit;
+	overflow: auto;
 	height: inherit;
-  overflow: auto;
+	width: inherit;
+  	height: 350px;
+  	width: 410px;
 }
 
 #thumbnails {
@@ -75,10 +77,18 @@ MAIN PAGE CONTENT
 
 #thumbnail-heading {
 	text-align: center;
-	color: (102,153,0.5);
+	color: red;
+	font-size: 30px;
+	font-family: 'Playfair Display' serif;
 }
 
-
+#thumbnail-paragraph {
+	text-align: center;
+	margin: 15px 160px 25px 160px;
+	opacity: 0.7;
+	font-size: 18px;
+	font-family: 'Alegreya Sans SC', sans-serif;
+}
 
 
 
